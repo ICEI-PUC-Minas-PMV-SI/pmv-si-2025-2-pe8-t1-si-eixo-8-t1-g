@@ -15,10 +15,10 @@ A escolha do Pet Shop Miau se justifica por ser um exemplo representativo de mic
 
 ---
 ### 1.2. Análise de Mercado
-O Pet Shop Miau atua no setor de **serviços pet**, especializado em banho, tosa e cuidados estéticos para cães e gatos. Esse segmento integra o mercado de bem-estar animal, que no Brasil vem apresentando crescimento contínuo, impulsionado pela maior valorização dos tutores em relação à saúde, higiene e estética de seus animais de estimação.
+O **Pet Shop Miau** atua no setor de **serviços pet**, especializado em banho, tosa e cuidados estéticos para cães e gatos. Esse segmento integra o mercado de bem-estar animal, que no Brasil vem apresentando crescimento contínuo, impulsionado pela maior valorização dos tutores em relação à saúde, higiene e estética de seus animais de estimação.
 De acordo com a ABINPET (Associação Brasileira da Indústria de Produtos para Animais de Estimação), o mercado pet brasileiro faturou **R$75,4 bilhões em 2024**, representando um aumento de 9,6% em relação ao ano anterior. Além disso, dados da ABINPET e do IBGE apontam que há, em média, **1,8 animal de estimação por residência no Brasil**, reforçando a percepção de que os pets já ocupam papel central nas famílias brasileiras e, consequentemente, impulsionam a demanda por serviços especializados.
 Nesse cenário, os pequenos e médios pet shops representam quase metade de todo o movimento do varejo, evidenciando a relevância e a competitividade desse segmento. O Pet Shop Miau se insere de forma estratégica nesse contexto, oferecendo atendimento personalizado e de proximidade, características valorizadas pelos clientes que buscam confiança, qualidade e cuidado individualizado para seus animais.
-No mercado local, em Contagem/MG, o petshop **enfrenta concorrência de estabelecimentos de diferentes portes, desde pequenos negócios de bairro até de uma grande franquia** de pet shop que oferece serviços integrados (venda de produtos, atendimento veterinário e estética animal).
+No mercado local, em Contagem/MG, Pet Shop Miau **enfrenta concorrência de estabelecimentos de diferentes portes, desde pequenos negócios de bairro até de uma grande franquia** de pet shop que oferece serviços integrados (venda de produtos, atendimento veterinário e estética animal).
 As principais práticas do setor incluem:
 * Utilização de sistemas digitais de agendamento e cadastro.
 * Programas de fidelidade e pacotes promocionais.
