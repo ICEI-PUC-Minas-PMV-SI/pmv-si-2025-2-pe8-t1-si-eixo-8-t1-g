@@ -543,3 +543,82 @@ Os relatórios visam auxiliar nas rotinas diárias do pet shop, como também aux
 * Fluxo de caixa por período;
 * Lista de clientes;
 * Pacotes vendidos.
+
+
+# 4. Planejamento Estratégico de TI
+
+## 4.1. PETI (Plano Estratégico de Tecnologia da Informação)
+
+### Finalidade do PETI
+O **Plano Estratégico de Tecnologia da Informação (PETI)** visa permitir que a solução proposta **suporte a estratégia de negócios** do Pet Shop Miau. Trata-se de apresentação de implementação tecnológica, com propósito de omitizar a gestão, fortalecer a competitividade e aprimorar o atendimento personalizado.
+
+### Pontos Fortes e Limitações do Sistema Desenvolvido
+O sistema implementado já soluciona o principal gargalo do negócio.
+
+* **Pontos Fortes:**
+    * **Centralização de Dados:** Integração de agendamentos, cadastros e serviços, eliminando o risco da gestão manual em papel e planilhas isoladas.
+    * **Controle Financeiro Básico:** Capacidade de registrar pagamentos e identificar pendências/inadimplência (resposta direta a uma KIQ).
+    * **Usabilidade:** Interface simples e intuitiva (Wireframes projetados).
+    * **Tecnologia Acessível:** Uso de ferramentas gratuitas (.NET, SQLite) garante ausência de custos de licenciamento.
+
+* **Limitações Atuais:**
+    * **Armazenamento Local:** O banco de dados SQLite reside localmente. Isso impede o acesso remoto e aumenta o risco de perda de dados em caso de falha do hardware local.
+    * **Ausência de BI Avançado:** Os relatórios gerenciais são operacionais (receita, inadimplência), mas ainda não oferecem *dashboards* dinâmicos e análises preditivas.
+    * **Funcionalidades de Pacotes:** O controle de pacotes, embora presente, pode exigir mais automação na baixa de créditos.
+
+### Diretrizes Estratégicas de TI (Evolução Futura)
+
+As diretrizes futuras devem focar em **segurança, mobilidade e inteligência de dados**:
+
+1.  **Migração e Segurança do Banco de Dados:** Migrar o banco de dados de **SQLite local** para um **serviço de nuvem** (ex: Azure SQL, AWS RDS ou até mesmo um Google Drive com sincronização de arquivos de banco de dados) para permitir acesso remoto e garantir backups automáticos.
+2.  **Inteligência e Automação:** Implementar **alertas automáticos** via e-mail/SMS para clientes sobre agendamentos futuros e para a gestão sobre pacotes próximos ao vencimento.
+3.  **Integração de Canais:** Desenvolver uma API simples ou utilizar integrações de terceiros para conectar o sistema a plataformas de comunicação como o **WhatsApp Business**, automatizando confirmações de agendamento.
+4.  **Módulo de Estoque Básico:** Criar um módulo simples para controle de insumos de alto giro (shampoos, condicionadores), alertando quando o estoque de um item essencial estiver baixo, antecipando a compra e prevenindo a interrupção do serviço.
+
+### Objetivos Estratégicos de TI
+
+| Prazo | Objetivo Estratégico de TI | Alinhamento com o Negócio |
+| :--- | :--- | :--- |
+| **Curto Prazo** (0 a 6 meses) | **Estabilização e Backup:** Implementar rotina de **backup semanal automatizado** do banco de dados e realizar um **treinamento formal** com a equipe sobre os novos processos e senhas. | Segurança de dados e mitigação do risco de perda de informações operacionais. |
+| **Médio Prazo** (6 a 12 meses) | **Mobilidade e Automação de Comunicação:** Migrar o banco de dados para uma solução em nuvem e implementar **alertas automáticos de agendamento** para clientes. | Melhorar a experiência do cliente e permitir acesso da proprietária fora do local físico. |
+| **Longo Prazo** (1 a 2 anos) | **Inteligência de Negócios (BI):** Adicionar um **módulo de *dashboard*** gerencial com indicadores visuais em tempo real, e avaliar a integração de um módulo básico de controle de estoque. | Apoiar a expansão do negócio com informações estratégicas claras, otimizando custos operacionais e rentabilidade. |
+
+### Indicadores de Acompanhamento (KPIs de TI)
+
+Estes indicadores monitorarão a eficácia da adoção e manutenção da tecnologia:
+
+* **Número de Usuários Ativos:** % de dias que a Proprietária e a Colaboradora acessaram o sistema (meta: >95% dos dias úteis).
+* **Frequência de Uso do Sistema:** Média diária de agendamentos e pagamentos registrados no SI (meta: 100% dos serviços registrados no sistema).
+* **Redução de Perdas Operacionais:** Diminuição dos casos de agendamentos perdidos (*no-show*) ou conflitos de agenda (comparar com a era da agenda de papel).
+* **Tempo de Resposta a Decisões:** Tempo para gerar o relatório de receita mensal (meta: de dias/horas de consolidação manual para **segundos** no sistema).
+
+---
+## 4.2. Auditoria e Governança de TI (Para Pequenas Empresas)
+Para o Pet Shop Miau, a Governança e a Auditoria de TI devem ser **simples, práticas e focadas na realidade de uma microempresa familiar**. O objetivo é proteger a informação sem criar burocracia desnecessária.
+
+### Segurança e Proteção de Dados (Foco na LGPD)
+A proteção de dados é crucial, visto que o sistema armazena informações pessoais dos tutores.
+* **Tratamento de Dados Pessoais:** A empresa deve tratar apenas os dados **necessários** para o serviço.
+    * **O que coletar:** Nome, telefone, endereço do tutor e informações essenciais do pet (nome, espécie, observações médicas). **Evitar** coletar dados sensíveis desnecessários (ex: CPF, RG, a menos que seja estritamente para fins fiscais específicos).
+* **Controle de Acesso ao Sistema:**
+    * **Senhas Seguras e Troca Periódica:** Definir que todos os logins (Proprietária e Colaboradora) devem ser **fortes** (mistura de letras, números e símbolos) e trocados a cada **90 dias**.
+    * **Perfis de Acesso:** Manter a distinção de perfis: A **Proprietária** tem acesso total (incluindo Finanças e Relatórios); a **Colaboradora** deve ter acesso restrito apenas aos módulos de **Agenda** e **Cadastro de Pets/Serviços** (bloqueando a visualização de senhas e o acesso a relatórios financeiros confidenciais).
+
+* **Práticas Recomendadas de Armazenamento:**
+    * **Backup Periódico:** Estabelecer a regra de **backup semanal** do banco de dados do sistema (arquivo SQLite) e das planilhas financeiras remanescentes.
+    * **Armazenamento Seguro:** Os backups devem ser armazenados em pelo menos **duas cópias** e em locais diferentes: uma em um **serviço de nuvem confiável** (ex: Google Drive ou OneDrive da proprietária) e outra em um **dispositivo físico externo** (ex: pendrive ou HD externo guardado em local seguro).
+
+### Continuidade e Controle (Pequeno Plano de Contingência)
+* **Perda de Dados/Falha do Sistema:**
+    1.  **Ação Imediata:** Utilizar a **agenda de papel de emergência** que deve ser mantida como plano B, onde serão registradas **apenas as informações cruciais** (Nome do Cliente e Horário).
+    2.  **Restabelecimento:** Restaurar o backup mais recente (semanal) no novo hardware ou após a correção do sistema.
+    3.  **Registro Simples de Mudanças:** Manter um arquivo de texto simples (``Log_Mudancas.txt``) ao lado do sistema, onde a Proprietária anota rapidamente: "20/11/2025: Alterado o valor do banho de gato" ou "15/11/2025: Sistema travou às 10h". Isso ajuda a lembrar o que precisa ser reajustado após a restauração.
+
+### Responsabilidades
+* **Responsável pela Manutenção do Sistema (Admin):** **Higor Botelho** (ou a pessoa designada pelo grupo como contato de suporte inicial, após a entrega do projeto), com suporte da Proprietária para *feedback*.
+* **Responsável pelo Uso e Atualização de Dados Diários:** **Proprietária e Colaboradora**, cada uma em seu nível de acesso.
+
+### Governança Simplificada
+1.  **Regras de Uso:** Criar um **documento conciso (um *checklist* de uma página)** com as regras básicas (Ex: "Todo pagamento deve ser lançado antes do fim do dia" e "Nunca compartilhe a senha de acesso").
+2.  **Manual Básico/Vídeo:** Elaborar um **manual básico de 5 páginas** ou um **vídeo tutorial de 10 minutos** focado em **"Como Agendar"** e **"Como Dar Baixa no Pagamento"** para treinar a Colaboradora rapidamente e padronizar o uso.
+3.  **Avaliação Periódica:** A Proprietária deve reservar **30 minutos no final de cada mês** para revisar os relatórios de **Receita e Inadimplência** (cumprimento do KPI) e confirmar se o sistema está de fato facilitando o trabalho. Se houver dificuldades, deve-se planejar uma pequena melhoria ou reforço no treinamento.
