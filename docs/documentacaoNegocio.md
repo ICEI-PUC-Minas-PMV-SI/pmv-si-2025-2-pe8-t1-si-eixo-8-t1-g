@@ -128,7 +128,7 @@ Não há geração automática de relatórios ou dashboards, e a análise de dad
 
 ## 2. PLANO DE INTELIGÊNCIA COMPETITIVA
 ### 2.1. Decisões Estratégicas do Pet Shop Miau
-* **Digitalização da Gestão:** O Pet Shop Miau realiza seus controles por meio de anotações manuais e planilhas no Excel (em algumas situações essas planilhas estão impressas, o que pode acarretar a perda da informação). Uma decisão estratégica fundamental é a implantação de um sistema informatizado para integrar a agenda, cadastros de clientes pacotes de serviços e controle financeiro.
+* **Digitalização da Gestão:** O **Pet Shop Miau** realiza seus controles por meio de anotações manuais e planilhas no **Excel** (em algumas situações essas planilhas estão impressas, o que pode acarretar a perda da informação). Uma decisão estratégica fundamental é a **implantação de um sistema informatizado** para integrar a agenda, cadastros de clientes pacotes de serviços e controle financeiro.
 * **Gestão Financeira e Inadimplência:** O petshop enfrenta dificuldades no acompanhamento de recebimentos e cobranças. Torna-se estratégico estabelecer mecanismos de controle financeiro mais robustos, que reduzam atrasos de pagamento e melhorem o fluxo de caixa;
 * **Escolha de uma decisão-chave:** A implantação de um sistema informatizado de gestão para centralizar agendamentos, cadastro de clientes, pacotes de serviços e finanças.
 * **Definição KIT (Key Intelligence Topic):** A empresa destaca-se pelo atendimento personalizado, mas enfrenta limitações por manter controles manuais de agendamento e finanças. Nesse contexto, o Key Intelligence Topic (KIT) definido é a adoção de um sistema informatizado de gestão. Essa decisão é estratégica porque permitirá maior eficiência, redução de erros e fortalecimento do controle financeiro, garantindo a sustentabilidade da microempresa.
@@ -159,12 +159,12 @@ Não há geração automática de relatórios ou dashboards, e a análise de dad
 
 ---
 ### 2.2. Justificativa da relevância do KIT e das KIQ para a empresa
-O KIT selecionado reflete a necessidade do pet shop de melhorar a gestão operacional dos serviços, garantindo assim, uma maior eficiência nos atendimentos e controle da agenda e finanças. A adoção de um sistema informatizado permitirá integrar processos, fortalecer a fidelização de clientes e aumentar a competitividade diante de outros pet shops.
+O KIT selecionado reflete a necessidade do pet shop de melhorar a gestão operacional dos serviços, garantindo assim, uma **maior eficiência nos atendimentos e controle da agenda e finanças**. A adoção de um sistema informatizado permitirá integrar processos, fortalecer a fidelização de clientes e aumentar a competitividade diante de outros pet shops.
 As KIQs orientam diretamente o levantamento de requisitos para o sistema a ser desenvolvido, para compreender as funcionalidades necessárias para modificação e modernização dos processos atuais.
 
 ---
 ### 2.3. Mapeamento de Dados e Identificação das Necessidades de Informação
-O objetivo deste mapeamento é identificar, categorizar e priorizar os dados essenciais necessários para gerar informações estratégicas que respondam às Key Intelligence Questions (KIQs) da organização. Esse processo visa transformar dados brutos em percepções acionáveis, permitindo decisões mais fundamentadas e eficazes, tanto em nível operacional quanto estratégico. Desta forma, a microempresa garante que seus processos de análise sejam consistentes, confiáveis e alinhados aos objetivos organizacionais, promovendo uma gestão baseada em evidências e maior eficiência na tomada de decisão.
+O objetivo deste mapeamento é identificar, categorizar e priorizar os dados essenciais necessários para gerar informações estratégicas que respondam às **Key Intelligence Questions (KIQs)** da organização. Esse processo visa transformar dados brutos em percepções acionáveis, permitindo decisões mais fundamentadas e eficazes, tanto em nível operacional quanto estratégico. Desta forma, a microempresa garante que seus processos de análise sejam consistentes, confiáveis e alinhados aos objetivos organizacionais, **promovendo uma gestão baseada em evidências e maior eficiência na tomada de decisão**.
 
 #### 2.3.1. Mapeamento dos tipos de dados
 #### **Dados de cliente (tutor) e animal:**
@@ -202,7 +202,7 @@ A definição dos KPIs tem como objetivo oferecer visibilidade clara sobre a per
 Em conjunto, esses indicadores fornecem à gestão uma base sólida para eficiência operacional da microempresa.
 
 #### 2.4.3.	Justificativa dos KPIs
-Os indicadores definidos oferecem suporte direto à gestão estratégica do pet shop, permitindo maior controle e eficiência nas decisões. A receita por serviço e tipo de atendimento possibilita identificar quais atividades são mais lucrativas. O ticket médio fornece uma visão clara sobre o valor médio gasto por cliente, contribuindo para a identificação dos perfis mais rentáveis e direcionando ações de fidelização. Além disso, a taxa de inadimplência e a utilização de pacotes são fundamentais para fortalecer o controle financeiro, reduzindo perdas e garantindo previsibilidade no fluxo de caixa.
+Os indicadores definidos oferecem suporte direto à gestão estratégica do pet shop, permitindo maior controle e eficiência nas decisões. A receita por serviço e tipo de atendimento possibilita identificar quais atividades são mais lucrativas. O ticket médio fornece uma visão clara sobre o valor médio gasto por cliente, **contribuindo para a identificação dos perfis mais rentáveis e direcionando ações de fidelização**. Além disso, a taxa de inadimplência e a utilização de pacotes são fundamentais para fortalecer o controle financeiro, reduzindo perdas e garantindo previsibilidade no fluxo de caixa.
 
 #### 2.4.4.	Funcionalidades do Sistema
 | Categoria | Funcionalidades |
@@ -214,7 +214,7 @@ Os indicadores definidos oferecem suporte direto à gestão estratégica do pet 
 
 ---
 ### 2.5. Levantamento de Fontes de Dados Existentes
-Atualmente, o **Pet Shop Miau** possui um conjunto de dados dispersos entre registros físicos (agenda e apostilas), digitais simples (Excel) e informais (WhatsApp). Essas fontes são úteis, mas carecem de integração, confiabilidade contínua e estruturação. A futura solução de gestão deverá **centralizar esses dados em um sistema informatizado**, além de incluir novas rotinas de coleta para suprir lacunas críticas como inadimplência em tempo real, perfil detalhado dos clientes e histórico dos pets.
+Atualmente, o **Pet Shop Miau** possui um conjunto de dados dispersos entre registros físicos (agenda e apostilas), digitais simples (**Excel**) e informais (**WhatsApp**). Essas fontes são úteis, mas carecem de integração, confiabilidade contínua e estruturação. A futura solução de gestão deverá **centralizar esses dados em um sistema informatizado**, além de incluir novas rotinas de coleta para suprir lacunas críticas como inadimplência em tempo real, perfil detalhado dos clientes e histórico dos pets.
 
 #### 2.5.1.	Inventário de dados:
 **a. Agenda de papel:**
@@ -281,14 +281,14 @@ Caso não haja a atualização habitual dos dados lançados de forma manual, nã
 ## 3. Desenvolvimento de alternativas de soluções de SI
 ### 3.1. Apresentação da solução que será desenvolvida
 #### 3.1.1.	Descrição da Solução Proposta
-Será desenvolvido um Sistema de Informação para o Pet Shop Miau, com foco na digitalização e integração dos processos de agendamento, cadastro de clientes e animais, controle de pacotes de serviços e gestão financeira.
+Será desenvolvido um Sistema de Informação para o **Pet Shop Miau**, com foco na digitalização e integração dos processos de agendamento, cadastro de clientes e animais, controle de pacotes de serviços e gestão financeira.
 O sistema permitirá:
 * Cadastrar e consultar clientes e seus animais;
 * Gerenciar agendas diárias, semanais e mensais;
 * Controlar pacotes, pagamentos e inadimplência;
 * Gerar relatórios e indicadores (receita por serviço e lista de clientes).
 
-Essa solução atenderá à necessidade estratégica de digitalizar a gestão do negócio, identificada no plano de Inteligência Competitiva, garantindo maior eficiência, controle financeiro e confiabilidade das informações.
+Essa solução **atenderá à necessidade estratégica de digitalizar a gestão do negócio**, identificada no plano de Inteligência Competitiva, garantindo maior eficiência, controle financeiro e confiabilidade das informações.
 
 #### 3.1.2.	Justificativa da Escolha da Solução
 A opção por um Sistema de Informação é a mais adequada porque:
@@ -304,12 +304,12 @@ Portanto, o Sistema de Informação se mostra coerente com as decisões crítica
 * **Banco de dados:** SQLite;
 * **Ferramentas de prototipação:** Figma, Canva e Draw.io.
 
-**b. Viabilidade Técnica:** O projeto é viável do ponto de vista técnico e financeiro, pois utiliza tecnologias gratuitas e consolidadas, como .NET e SQLite, que possuem ampla documentação e suporte da comunidade. A aplicação apresenta baixo nível de complexidade, sendo desenvolvida para ambiente desktop com armazenamento local de dados. O único cuidado necessário por parte do usuário é a adoção de uma rotina de backup regular, a fim de prevenir possíveis perdas de informações.
+**b. Viabilidade Técnica:** O projeto é viável do ponto de vista técnico e financeiro, pois **utiliza tecnologias gratuitas e consolidadas**, como .NET e SQLite, que possuem ampla documentação e suporte da comunidade. A aplicação apresenta baixo nível de complexidade, sendo desenvolvida para ambiente desktop com armazenamento local de dados. O único cuidado necessário por parte do usuário é a adoção de uma rotina de backup regular, a fim de prevenir possíveis perdas de informações.
 
 **c. Viabilidade Financeira:**
 * **Custo de Implementação:** O custo de implementação é mínimo, não havendo despesas diretas relacionadas ao desenvolvimento ou à utilização do sistema. Por se tratar de um trabalho acadêmico de caráter extensionista, não há custos com mão de obra. Conforme mencionado anteriormente, são empregadas ferramentas gratuitas e de código aberto – como .NET, por exemplo – o que elimina gastos com licenças de software. Por fim, quanto ao hardware necessário para execução da aplicação, não se faz necessária a aquisição de novos equipamentos, uma vez que o sistema será instalado em máquinas de posse da proprietária.
 
-* **Benefícios:** A aplicação proporcionará a automação de processos que atualmente são realizados de forma manual, resultando em maior eficiência operacional e economia de tempo para o cliente. Além disso, a centralização das informações em um único sistema facilitará o acesso ao histórico de dados e reduzirá significativamente o risco de perdas ou inconsistências. Por se tratar de uma aplicação com banco de dados armazenado localmente, o cliente também se beneficiará da independência em relação à conexão com a internet, evitando interrupções no uso do sistema.
+* **Benefícios:** A aplicação proporcionará a automação de processos que atualmente são realizados de forma manual, resultando em maior eficiência operacional e economia de tempo para o cliente. Além disso, **a centralização das informações em um único sistema facilitará o acesso ao histórico de dados e reduzirá significativamente o risco de perdas ou inconsistências**. Por se tratar de uma aplicação com banco de dados armazenado localmente, o cliente também se beneficiará da independência em relação à conexão com a internet, evitando interrupções no uso do sistema.
 Dessa forma, considerando a inexistência de custos de produção e manutenção, o projeto demonstra alta viabilidade financeira e excelente relação custo-benefício.
 
 ---
@@ -550,7 +550,7 @@ Os relatórios visam auxiliar nas rotinas diárias do pet shop, como também aux
 ## 4.1. PETI (Plano Estratégico de Tecnologia da Informação)
 
 ### Finalidade do PETI
-O **Plano Estratégico de Tecnologia da Informação (PETI)** visa permitir que a solução proposta **suporte a estratégia de negócios** do Pet Shop Miau. Trata-se de apresentação de implementação tecnológica, com propósito de omitizar a gestão, fortalecer a competitividade e aprimorar o atendimento personalizado.
+O **Plano Estratégico de Tecnologia da Informação (PETI)** visa permitir que a solução proposta **suporte a estratégia de negócios** do Pet Shop Miau. Trata-se de apresentação de implementação tecnológica, com propósito de otimizar a gestão, fortalecer a competitividade e aprimorar o atendimento personalizado.
 
 ### Pontos Fortes e Limitações do Sistema Desenvolvido
 O sistema implementado já soluciona o principal gargalo do negócio.
@@ -594,7 +594,7 @@ Estes indicadores monitorarão a eficácia da adoção e manutenção da tecnolo
 
 ---
 ## 4.2. Auditoria e Governança de TI (Para Pequenas Empresas)
-Para o Pet Shop Miau, a Governança e a Auditoria de TI devem ser **simples, práticas e focadas na realidade de uma microempresa familiar**. O objetivo é proteger a informação sem criar burocracia desnecessária.
+Para o **Pet Shop Miau**, a Governança e a Auditoria de TI devem ser **simples, práticas e focadas na realidade de uma microempresa familiar**. O objetivo é **proteger a informação sem criar burocracia desnecessária**.
 
 ### Segurança e Proteção de Dados (Foco na LGPD)
 A proteção de dados é crucial, visto que o sistema armazena informações pessoais dos tutores.
